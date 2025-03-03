@@ -12,7 +12,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.8'  # You can specify the version you want
+        python-version: '3.13'  # You can specify the version you want
 
     - name: Install dependencies
       run: |
